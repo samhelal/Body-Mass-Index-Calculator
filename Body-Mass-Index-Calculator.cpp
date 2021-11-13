@@ -16,9 +16,9 @@ Obese: 30 or greater
 using namespace std ;
 int main () {
     int w(0) , h(0) , bmi(0);
-    cout << " Enter your weight : " ; 
+    cout << " Enter your weight in kilogram : " ; 
     cin >> w ;
-    cout << " Enter your height : " ;
+    cout << " Enter your height in centimeter : " ; // like (175) not (1.75) cause of integer and it can divided by 100.
     cin >> h ;
     bmi = w/((h*h)/10000) ; //divided the height by 100 to change to centimeter
     cout << " BMI is :" <<bmi << endl ;
